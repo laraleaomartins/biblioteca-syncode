@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+@font-face {
+  font-family: Nunito;
+  src: url(assets/fonts/Nunito-Light.ttf) format('truetype');
+}
+
+
+:root {
+  --font: "Nunito";
+  --primary-color: rgba(45, 93, 185, 1);
+  --form-color:rgba(157, 157, 157, 1);
+}
+
